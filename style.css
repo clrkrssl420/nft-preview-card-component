@@ -81,6 +81,7 @@
     height: 100%;
     width: 100%;
     background-color: hsl(var(--clr-secondary), .5);
+    border-radius: 10px;
     display: none;
 }
 
@@ -161,4 +162,14 @@
 
 hr {
     color: var(--clr-line);
+}
+
+/* Attribution */
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
